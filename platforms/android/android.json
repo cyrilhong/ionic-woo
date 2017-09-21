@@ -1,0 +1,245 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"PayPalMobile\"><param name=\"android-package\" value=\"com.paypal.cordova.sdk.PayPalMobileCordovaPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" value=\"io.ionic.keyboard.IonicKeyboard\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.CAMERA\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.camera\" android:required=\"false\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-feature android:name=\"android.hardware.camera.autofocus\" android:required=\"false\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<service android:exported=\"false\" android:name=\"com.paypal.android.sdk.payments.PayPalService\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.PaymentActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.LoginActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.PaymentMethodActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.PaymentConfirmActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.PayPalFuturePaymentActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.FuturePaymentConsentActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.FuturePaymentInfoActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.PayPalProfileSharingActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"com.paypal.android.sdk.payments.ProfileSharingConsentActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:configChanges=\"keyboardHidden|orientation\" android:name=\"io.card.payment.CardIOActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"io.card.payment.DataEntryActivity\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.paypal.cordova.mobilesdk": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.hybridapps.woocommerce"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "com.paypal.cordova.mobilesdk.PayPalMobile",
+            "file": "plugins/com.paypal.cordova.mobilesdk/www/cdv-plugin-paypal-mobile-sdk.js",
+            "pluginId": "com.paypal.cordova.mobilesdk",
+            "clobbers": [
+                "PayPalMobile"
+            ]
+        },
+        {
+            "id": "cordova-plugin-device.device",
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "pluginId": "cordova-plugin-inappbrowser",
+            "clobbers": [
+                "cordova.InAppBrowser.open",
+                "window.open"
+            ]
+        },
+        {
+            "id": "cordova-plugin-splashscreen.SplashScreen",
+            "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+            "pluginId": "cordova-plugin-splashscreen",
+            "clobbers": [
+                "navigator.splashscreen"
+            ]
+        },
+        {
+            "id": "cordova-plugin-statusbar.statusbar",
+            "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+            "pluginId": "cordova-plugin-statusbar",
+            "clobbers": [
+                "window.StatusBar"
+            ]
+        },
+        {
+            "id": "cordova-plugin-whitelist.whitelist",
+            "file": "plugins/cordova-plugin-whitelist/whitelist.js",
+            "pluginId": "cordova-plugin-whitelist",
+            "runs": true
+        },
+        {
+            "id": "cordova-plugin-x-socialsharing.SocialSharing",
+            "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+            "pluginId": "cordova-plugin-x-socialsharing",
+            "clobbers": [
+                "window.plugins.socialsharing"
+            ]
+        },
+        {
+            "id": "ionic-plugin-keyboard.keyboard",
+            "file": "plugins/ionic-plugin-keyboard/www/android/keyboard.js",
+            "pluginId": "ionic-plugin-keyboard",
+            "clobbers": [
+                "cordova.plugins.Keyboard"
+            ],
+            "runs": true
+        }
+    ],
+    "plugin_metadata": {
+        "com.paypal.cordova.mobilesdk": "3.1.18",
+        "cordova-plugin-console": "1.0.2",
+        "cordova-plugin-device": "1.1.1",
+        "cordova-plugin-inappbrowser": "1.3.1-dev",
+        "cordova-plugin-splashscreen": "3.2.0",
+        "cordova-plugin-statusbar": "2.1.1",
+        "cordova-plugin-whitelist": "1.2.2-dev",
+        "cordova-plugin-x-socialsharing": "5.0.10",
+        "ionic-plugin-keyboard": "1.0.8"
+    }
+}

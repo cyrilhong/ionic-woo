@@ -1,0 +1,9 @@
+{
+  "name": "com.hybridapps.woocommerce",
+  "app_id": "353ad919",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1",
+  "watchPatterns": []
+}
